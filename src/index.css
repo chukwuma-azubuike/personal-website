@@ -1,0 +1,79 @@
+/* 
+Brand Colors
+Base - #051f61
+Accent - #f0745d
+Semi neutral - #faf8ff 
+Neutral - white
+ */
+
+body {
+  font-family: 'Spartan', sans-serif;
+  margin: 0;
+  color: black;
+}
+
+hr {
+  border-right: 0;
+  border-left: 0;
+  border-top: 0;
+  border-bottom-width: 1px;
+}
+
+.side-bar {
+  width: 220px;
+  padding: 40px 0;
+  height: 100%;
+  background-color: #faf8ff;
+  position: fixed;
+  color: #051f61;
+}
+
+.side-bar h1 {
+  font-weight: 300;
+  line-height: 35px;
+  margin-bottom: 7px;
+}
+
+.side-bar p {
+  font-size: small;
+  font-weight: 300;
+  line-height: 20px;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+.side-bar li {
+  padding: 20px 0;
+  list-style: none;
+}
+
+.side-bar a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.side-bar ul {
+  padding: 0;
+}
+
+.side-bar * {
+  padding: 0 20px;
+}
+
+main {
+  padding-left: 220px;
+}
+
+main h1 {
+  margin: 0;
+}
+
+.section-title {
+  padding: 30px;
+  background-color: #051f61;
+}
+
+.section-title h1 {
+  color: #faf8ff;
+  font-weight: 100;
+}
