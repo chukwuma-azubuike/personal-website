@@ -1,8 +1,14 @@
 import React from 'react';
 import SideBar from './components/side-bar';
 import Section from './components/section';
-import data from './data.js';
+import data from './data';
 import Experience from './components/experience';
+import Projects from './components/projects';
+import Skills from './components/skills';
+import Education from './components/education';
+import Certifications from './components/certifications';
+import Contact from './components/contact';
+
 // import Header from './components/header';
 
 function App() {
@@ -20,7 +26,7 @@ function App() {
       <main>
         <div>Image Here... I want to build things that inspire.</div>
         <Section title='ABOUT' id='About' href='#About' />
-        <Section title='EXPERIENCE' id='Experience' href='#Experience'
+        {/* <Section title='EXPERIENCE' id='Experience' href='#Experience'
           entries={experience.map((e) => {
             return (
               <Experience
@@ -33,8 +39,8 @@ function App() {
               />
             )
           })}
-        />
-        <Section title='PRODUCT' id='Projects' href='#Projects'
+        /> */}
+        {/* <Section title='PRODUCT' id='Projects' href='#Projects'
           entries={projects.map((e) => {
             return (
               <Projects
@@ -47,8 +53,8 @@ function App() {
               />
             )
           })}
-        />
-        <Section title='SKILLS' id='Skills' href='#Skills'
+        /> */}
+        {/* <Section title='SKILLS' id='Skills' href='#Skills'
           entries={skills.map((e) => {
             return (
               <Skills
@@ -57,11 +63,37 @@ function App() {
               />
             )
           })}
-        />
+        /> */}
         <Section title='EDUCATION' id='Education' href='#Education'
-          entries={education}
+          entries={education.map((e) => <Education
+            school={e.school}
+            location={e.location}
+            degree={e.degree}
+            date={e.date}
+          />)}
         />
-        <Section title='CONTACT' id='Contact' href='#Contact' />
+        <Section title='CERTIFICATIONS' id='certifications' href='#certifications'
+          entries={certifications.map((e) => {
+            return (
+              <Certifications
+                organisation={e.organisation}
+                organisationLogo={e.organisationLogo}
+                description={e.description}
+              />
+            )
+          })}
+        />
+        <Section title='CONTACT' id='Contact' href='#Contact'
+          entries={
+            <Contact
+              title={contact.title}
+              email={contact.email}
+              phone={contact.phone}
+              github={contact.github}
+              linkedIn={contact.linkedIn}
+            />
+          }
+        />
       </main>
     </div>
   );

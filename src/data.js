@@ -210,11 +210,10 @@ const data = {
         title: 'EDUCATION',
         entries: [
             {
-                school: '',
-                location: '',
-                degree: '',
-                startDate: '',
-                finishDate: ''
+                school: 'University of Ilorin',
+                location: 'Kwara, Nigeria',
+                degree: 'Bachelor of Engineering',
+                date: 'Nov, 2011 - Oct, 2016',
             }
         ]
     },
@@ -222,19 +221,19 @@ const data = {
         title: 'CERTIFICATIONS',
         entries: [
             {
-                organisation: '',
+                organisation: 'Udemy',
                 organisationLogo: '',
-                description: '',
+                description: 'The Complete Web Development Bootcamp',
             },
             {
-                organisation: '',
+                organisation: 'Udemy',
                 organisationLogo: '',
-                description: '',
+                description: 'Software Engineering 101',
             },
             {
-                organisation: '',
+                organisation: 'Udemy',
                 organisationLogo: '',
-                description: '',
+                description: 'User Experience Design Essentials',
             }
         ]
     },

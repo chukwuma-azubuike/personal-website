@@ -6,7 +6,7 @@ function Section(props) {
     return (
         <div id={props.id}>
             <div className='section-title'> <h1>{props.title}</h1> </div>
-            {}
+            {props.entries}
         </div>
     )
 }
