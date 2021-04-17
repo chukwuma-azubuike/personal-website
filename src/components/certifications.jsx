@@ -3,7 +3,7 @@ import '../index.css';
 
 function Certifications(props) {
     return (
-        <div className='section-inner-div'>
+        <div id='Certifications' className='section-inner-div'>
             <div>
                 <span>
                     <h1>{props.organisation}</h1>

@@ -4,19 +4,20 @@ import '../index.css';
 function SideBar() {
     return (
         <nav className='side-bar'>
-            <h1>Chukwuma Azubuike</h1>
-            <p>Full Stack Developer</p>
-            <hr></hr>
+            <div className='side-bar-title'>
+                <h1>Chukwuma Azubuike</h1>
+                <p>Full Stack Developer</p>
+            </div>
             <ul>
-                <li> <a href='#About'>About</a></li>
-                <li> <a href='#Experience'>Experience</a></li>
-                <li> <a href='#Projects'>Projects</a></li>
-                <li> <a href='#Skills'>Skills</a></li>
+                <a href='#About'><li>About</li></a>
+                <a href='#Experience'><li>Experience</li></a>
+                <a href='#Projects'><li>Projects</li></a>
+                <a href='#Skills'><li>Skills</li></a>
                 {/* <li> <a href='#Awards'>Awards</a></li> */}
-                <li> <a href='#Education'>Education</a></li>
-                <li> <a href='#Certifications'>Certifications</a></li>
-                <li> <a href='#Contact'>Contact</a></li>
-                <li> <a href='#Resume'>Resume</a></li>
+                <a href='#Education'><li>Education</li></a>
+                <a href='#Certifications'><li>Certifications</li></a>
+                <a href='#Contact'><li>Contact</li></a>
+                <a href='#Resume'><li>Resume</li></a>
             </ul>
         </nav>
     )

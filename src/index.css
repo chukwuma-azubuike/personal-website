@@ -14,11 +14,13 @@ body {
 }
 
 main {
+  padding-left: 210px;
   background-color: #f7fdfc;
   background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
 }
 
 h1, h2 {
+  letter-spacing: -1.2px;
   font-weight: 400;
   color: #247188;
 }
@@ -74,9 +76,10 @@ hr {
 }
 
 .side-bar {
-  width: 220px;
-  padding: 40px 0;
+  z-index: 2;
+  padding: 0;
   height: 100%;
+  /* max-width: 140px; */
   background-color: white;
   position: fixed;
   color: #247188;
@@ -94,11 +97,11 @@ hr {
   font-weight: 300;
   line-height: 20px;
   margin-top: 0;
-  margin-bottom: 30px;
+  margin-bottom: 15px;
 }
 
 .side-bar li {
-  padding: 20px 0;
+  padding: 10px 35px;
   list-style: none;
 }
 
@@ -109,24 +112,56 @@ hr {
 
 .side-bar ul {
   padding: 0;
+  margin: 0;
 }
 
-.side-bar * {
-  padding: 0 20px;
+.side-bar-title {
+  padding: 25px 30px;
+  max-width: 160px;
+  border-bottom: 1px solid #a7bec7;
 }
 
 .nav-bar {
+  width: 100%;
+  z-index: 1;
+  background-color: white;
+  position: fixed;
+  top: 0;
   display: none;
+  padding: 9px;
+  align-items: center;
+  box-shadow: 0.2px 1px 7px #718992;
+}
+
+.nav-title {
+  padding-left: 4%;
+  margin-right: 35%;
+  width: 100%;
   text-align: center;
-  padding: 0;
 }
 
 .nav-bar h1 {
   margin: 5px auto;
+  font-size: 20px;
+  font-weight: 500;
 }
 
-main {
-  padding-left: 220px;
+.nav-bar p {
+  font-size: 15px;
+}
+
+.burger-icon {
+  position: relative;
+  top: 11px;
+  left: 11px;
+  float: left;
+  color: #247188;
+  font-size: 27px;
+}
+
+.burger-icon-div {
+  position: relative;
+  align-self: flex-start;
 }
 
 main h1 {
@@ -180,6 +215,14 @@ main h1 {
   left: 480px;
 }
 
+/* Hover Effects */
+
+a li:hover {
+  background-color: #cde4ec;
+}
+
+/* Responsiveness */
+
 @media (max-width:1120px) {
   .role {
     display: relative;
@@ -187,6 +230,9 @@ main h1 {
     left: 26px;
     margin-bottom: 15px;
   }
+}
+
+@media (max-width:1000px) {
   .side-bar {
     display: none;
   }
@@ -195,6 +241,9 @@ main h1 {
   }
   .nav-bar {
     display: block;
-    position: sticky;
+  }
+  .mobile-side-div {
+    width: 140px;
+    display: none;
   }
 }
