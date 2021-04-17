@@ -3,18 +3,18 @@ import '../index.css';
 
 function Contact(props) {
     return (
-        <div className='section-inner-div'>
+        <div className='contacts'>
             <div>
-                <span>{props.email}</span>
+                <a href={props.email}><span>{props.email}</span></a>
             </div>
             <div>
-                <span>{props.phone}</span>
+                <a href={props.phone}><span>{props.phone}</span></a>
             </div>
             <div>
-                <span>{props.github}</span>
+                <a href={props.github}><span>{props.github}</span></a>
             </div>
             <div>
-                <span>{props.linkedIn}</span>
+                <a href={props.linkedIn}><span>{props.linkedIn}</span></a>
             </div>
         </div>
     )

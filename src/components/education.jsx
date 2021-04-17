@@ -4,15 +4,15 @@ import '../index.css';
 function Education(props) {
     return (
         <div className='section-inner-div'>
-            <div>
-                <h1>{props.school}</h1>
+            <div className='education-header'>
+                <div><h1>{props.school}</h1></div>
             </div>
-            <div>
+            <div className='education-details'>
                 <p>{props.location}</p>
-                <p>{props.degree}</p>
-                <div className='date-div'>
-                    <p>{props.date}</p>
-                </div>
+                <p> <strong>{props.degree}</strong> </p>
+            </div>
+            <div className='date-div'>
+                <p>{props.date}</p>
             </div>
         </div>
     )

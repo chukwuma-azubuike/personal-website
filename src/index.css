@@ -13,6 +13,10 @@ body {
   color: black;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 main {
   padding-left: 210px;
   background-color: #f7fdfc;
@@ -41,12 +45,16 @@ hr {
   color: #247188;
 }
 
-.experience-headers {
+.section-headers {
   margin: 15px;
   border-bottom: 1px solid #d7d9da;
 }
 
-.experience-headers div {
+.section-inner-div .section-headers {
+  margin: 20px;
+}
+
+.section-headers div {
   padding: 10px;
   margin-right: 20px;
   margin-left: 15px;
@@ -80,9 +88,10 @@ hr {
   z-index: 2;
   padding: 0;
   height: 100%;
-  width: 200px;
+  width: 210px;
   background-color: white;
   position: fixed;
+  top: -1px;
   color: #247188;
   box-shadow: 0.2px 1px 7px #a7bec7;
 }
@@ -131,7 +140,6 @@ hr {
   display: none;
   padding: 9px;
   align-items: center;
-  /* justify-content: space-evenly; */
   box-shadow: 0.2px 1px 7px #718992;
 }
 
@@ -152,7 +160,7 @@ hr {
   font-size: 15px;
 }
 
-.mobile-side-div{
+.mobile-side-div {
   width: 190px;
   position: relative;
 }
@@ -181,9 +189,22 @@ main h1 {
 
 .section-inner-div {
   background-color: white;
-  /* padding: 10px 10px; */
   margin-bottom: 50px;
   box-shadow: 0.2px 1px 7px #a7bec7;
+}
+
+.education-header {
+  padding: 30px 0px 25px;
+  border-bottom: 1px solid #a7bec7;
+  margin: 40px;
+}
+
+.education-details {
+  padding: 0 30px 25px;
+}
+
+.section-inner-div ul {
+  padding: 0 20px 0 50px;
 }
 
 .experience li {
@@ -193,7 +214,6 @@ main h1 {
 
 .section-title {
   padding: 30px;
-  /* background-color: #247188; */
   background-color: #247188;
 }
 
@@ -218,8 +238,30 @@ main h1 {
 .role {
   display: inline-block;
   position: relative;
-  bottom: 54px;
+  bottom: 68px;
   left: 480px;
+}
+
+.pad-div {
+  padding: 20px;
+}
+
+.pad-div h1 {
+  margin-bottom: 20px;
+}
+
+.skill-name-div {
+  vertical-align: middle;
+  text-align: center;
+}
+
+.contacts div {
+  margin: 50px 5px;
+}
+
+.contacts a {
+  text-decoration: none;
+  color: #247188;
 }
 
 /* Hover Effects */
@@ -229,33 +271,44 @@ a li:hover {
   background-color: #cde4ec;
 }
 
+.contacts div a:hover {
+  transition: all 3s;
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
+}
+
 /* Responsiveness */
 
-@media (max-width:1120px) {
+@media (max-width:900px) {
   .role {
     display: relative;
     bottom: -21px;
     left: 26px;
-    margin-bottom: 15px;
+    margin-bottom: 25px;
   }
 }
 
 @media (max-width:1000px) {
+  html {
+    scroll-padding-top: 70px;
+  }
   .side-bar {
     display: none;
   }
   main {
+    margin-top: 70px;
     padding-left: 0;
   }
   .nav-bar {
-    transition: display 1s;
     display: block;
+    z-index: 1;
   }
   .mobile-side-div {
+    margin-bottom: 50px;
     width: 200px;
     transition: left ease-in-out 0.3s;
   }
-  .side-bar{
+  .side-bar {
     box-shadow: none;
   }
 }

@@ -73,7 +73,7 @@ function App() {
             date={e.date}
           />)}
         />
-        <Section title='CERTIFICATIONS' id='certifications' href='#certifications'
+        <Section title='CERTIFICATIONS' id='Certifications' href='#certifications'
           entries={certifications.map((e) => {
             return (
               <Certifications

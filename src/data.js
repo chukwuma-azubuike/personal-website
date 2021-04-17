@@ -116,7 +116,7 @@ const data = {
                     },
                     {
                         name: 'JSX',
-                        logo: '',
+                        logo: 'https://i.ibb.co/wSGw6Mv/jsx.webp',
                     }
                 ]
             },
@@ -125,11 +125,11 @@ const data = {
                 stack: [
                     {
                         name: 'CSS3',
-                        logo: '',
+                        logo: 'https://i.ibb.co/RBjNpVg/cssPNG.png',
                     },
                     {
                         name: 'Bootstrap',
-                        logo: '',
+                        logo: 'https://i.ibb.co/YcVtGx5/bootstrap.png',
                     },
                 ]
             },
@@ -138,15 +138,15 @@ const data = {
                 stack: [
                     {
                         name: 'Javascript',
-                        logo: '',
+                        logo: 'https://i.ibb.co/sqtZHrq/js.png',
                     },
                     {
                         name: 'React',
-                        logo: '',
+                        logo: 'https://i.ibb.co/wSGw6Mv/jsx.webp',
                     },
                     {
                         name: 'jQuery',
-                        logo: '',
+                        logo: 'https://i.ibb.co/yFYyvvs/j-Query-PNG.png',
                     }
                 ]
             },
@@ -155,69 +155,69 @@ const data = {
                 stack: [
                     {
                         name: 'Node JS',
-                        logo: '',
+                        logo: 'https://i.ibb.co/tXxDz0x/Node-js-logo.png',
                     },
                     {
                         name: 'MongoDB',
-                        logo: '',
+                        logo: 'https://i.ibb.co/YDBWrW9/mongoDB.png',
                     },
                     {
                         name: 'MySQL',
-                        logo: '',
+                        logo: 'https://i.ibb.co/z2hLRCp/My-SQL.png',
                     },
                     {
-                        name: 'JSON',
-                        logo: '',
+                        name: 'RESTful APIs',
+                        logo: 'https://i.ibb.co/rGw7KK4/restful-api-image.png',
                     },
                 ]
             },
-            {
-                category: 'Build Tools',
-                stack: [
-                    {
-                        name: '',
-                        logo: '',
-                    },
-                    {
-                        name: '',
-                        logo: '',
-                    },
-                    {
-                        name: '',
-                        logo: '',
-                    },
-                    {
-                        name: '',
-                        logo: '',
-                    },
-                ]
-            },
+            // {
+            //     category: 'Build Tools',
+            //     stack: [
+            //         {
+            //             name: '',
+            //             logo: '',
+            //         },
+            //         {
+            //             name: '',
+            //             logo: '',
+            //         },
+            //         {
+            //             name: '',
+            //             logo: '',
+            //         },
+            //         {
+            //             name: '',
+            //             logo: '',
+            //         },
+            //     ]
+            // },
             {
                 category: 'Others',
                 stack: [
                     {
                         name: 'Git',
-                        logo: '',
+                        logo: 'https://i.ibb.co/xG3BPcx/git.png',
                     },
                     {
                         name: 'Github',
-                        logo: '',
+                        logo: 'https://i.ibb.co/VT2qWWG/GitHub.png',
                     },
                     {
                         name: 'CLI',
-                        logo: '',
+                        logo: 'https://i.ibb.co/7WZ8YDT/CLI.jpg',
                     },
                     {
                         name: 'Heroku',
-                        logo: '',
+                        logo: 'https://i.ibb.co/3TzYTr0/Heroku-logo.png',
                     },
                     {
-                        name: 'Azure',
-                        logo: '',
+                        name: 'Microsoft Azure',
+                        logo: 'https://i.ibb.co/xY6wLrj/Azure.png',
                     },
                     {
                         name: 'Adobe XD',
-                        logo: '',
+                        logo: 'https://i.ibb.co/CKjYSxw/Adobe-XD.png',
                     },
                     {
                         name: 'Postman API',
@@ -233,7 +233,7 @@ const data = {
             {
                 school: 'University of Ilorin',
                 location: 'Kwara, Nigeria',
-                degree: 'Bachelor of Engineering',
+                degree: 'B.Eng in Electrical/Electronics Engineering',
                 date: 'Nov, 2011 - Oct, 2016',
             }
         ]
@@ -268,3 +268,22 @@ const data = {
 }
 
 export default data;
+
+{/* <a href="https://ibb.co/3mxjPtT"><img src="https://i.ibb.co/CKjYSxw/Adobe-XD.png" alt="Adobe-XD" border="0"></a>
+<a href="https://ibb.co/bFXYmGB"><img src="https://i.ibb.co/xY6wLrj/Azure.png" alt="Azure" border="0"></a>
+<a href="https://ibb.co/WkRc1Lr"><img src="https://i.ibb.co/YcVtGx5/bootstrap.png" alt="bootstrap" border="0"></a>
+<a href="https://ibb.co/gTfHj8X"><img src="https://i.ibb.co/7WZ8YDT/CLI.jpg" alt="CLI" border="0"></a>
+<a href="https://ibb.co/BrnGVSf"><img src="https://i.ibb.co/RBjNpVg/cssPNG.png" alt="cssPNG" border="0"></a>
+<a href="https://ibb.co/mtS21Yf"><img src="https://i.ibb.co/xG3BPcx/git.png" alt="git" border="0"></a>
+<a href="https://imgbb.com/"><img src="https://i.ibb.co/VT2qWWG/GitHub.png" alt="GitHub" border="0"></a>
+<a href="https://ibb.co/tHXPHmb"><img src="https://i.ibb.co/3TzYTr0/Heroku-logo.png" alt="Heroku-logo" border="0"></a>
+<a href="https://ibb.co/LRLHfpj"><img src="https://i.ibb.co/RbxdWHr/javascript.png" alt="javascript" border="0"></a>
+<a href="https://ibb.co/7tRWMMy"><img src="https://i.ibb.co/yFYyvvs/j-Query-PNG.png" alt="j-Query-PNG" border="0"></a>
+<a href="https://imgbb.com/"><img src="https://i.ibb.co/sqtZHrq/js.png" alt="js" border="0"></a>
+<a href="https://imgbb.com/"><img src="https://i.ibb.co/wSGw6Mv/jsx.webp" alt="jsx" border="0"></a>
+<a href="https://ibb.co/k32ydyn"><img src="https://i.ibb.co/YDBWrW9/mongoDB.png" alt="mongoDB" border="0"></a>
+<a href="https://ibb.co/VCWhSbR"><img src="https://i.ibb.co/z2hLRCp/My-SQL.png" alt="My-SQL" border="0"></a>
+<a href="https://ibb.co/6B1F8K1"><img src="https://i.ibb.co/tXxDz0x/Node-js-logo.png" alt="Node-js-logo" border="0"></a>
+<a href="https://ibb.co/0cd7TsS"><img src="https://i.ibb.co/80SCqYp/postman-inc-logo-vector.png" alt="postman-inc-logo-vector" border="0"></a>
+<a href="https://ibb.co/DDRVPP5"><img src="https://i.ibb.co/rGw7KK4/restful-api-image.png" alt="restful-api-image" border="0"></a>
+<a href="https://imgbb.com/"><img src="https://i.ibb.co/0MW49y1/css.png" alt="css" border="0"></a> */}

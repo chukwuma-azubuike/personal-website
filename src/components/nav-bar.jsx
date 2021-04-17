@@ -11,7 +11,7 @@ function NavBar() {
     return (
         <div>
             <div className='mobile-side-div' style={{ left: sideBar ? '0' : '-200px' }} >
-                <nav className='side-bar' style={{ display: sideBar ? 'block' : 'none', zIndex: 3 }}>
+                <nav className='side-bar' style={{ display: sideBar ? 'block' : 'none', zIndex: 4 }}>
                     <ul>
                         <a onClick={handleClick} href='#About'><li>About</li></a>
                         <a onClick={handleClick} href='#Experience'><li>Experience</li></a>
@@ -26,9 +26,10 @@ function NavBar() {
                 </nav>
                 <div style={{
                     display: sideBar ? 'block' : 'none',
-                    zIndex: 2, backgroundColor: 'black',
+                    zIndex: 3, backgroundColor: 'black',
                     opacity: 0.6, height: '100%', width: '100%',
-                    position: 'fixed'
+                    position: 'fixed',
+                    top: '0'
                 }}
                     onClick={handleClick}>
                 </div>
