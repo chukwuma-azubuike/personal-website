@@ -3,7 +3,7 @@ import '../index.css';
 
 function Certifications(props) {
     return (
-        <div>
+        <div className='section-inner-div'>
             <div>
                 <span>
                     <h1>{props.organisation}</h1>

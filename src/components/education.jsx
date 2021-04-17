@@ -3,7 +3,7 @@ import '../index.css';
 
 function Education(props) {
     return (
-        <div>
+        <div className='section-inner-div'>
             <div>
                 <h1>{props.school}</h1>
             </div>

@@ -1,4 +1,5 @@
 import React from 'react';
+import NavBar from './components/nav-bar';
 import SideBar from './components/side-bar';
 import Section from './components/section';
 import data from './data';
@@ -22,11 +23,11 @@ function App() {
 
   return (
     <div>
+      <NavBar />
       <SideBar />
       <main>
-        <div>Image Here... I want to build things that inspire.</div>
         <Section title='ABOUT' id='About' href='#About' />
-        {/* <Section title='EXPERIENCE' id='Experience' href='#Experience'
+        <Section title='EXPERIENCE' id='Experience' href='#Experience'
           entries={experience.map((e) => {
             return (
               <Experience
@@ -39,8 +40,8 @@ function App() {
               />
             )
           })}
-        /> */}
-        {/* <Section title='PRODUCT' id='Projects' href='#Projects'
+        />
+        <Section title='PROJECTS' id='Projects' href='#Projects'
           entries={projects.map((e) => {
             return (
               <Projects
@@ -53,8 +54,8 @@ function App() {
               />
             )
           })}
-        /> */}
-        {/* <Section title='SKILLS' id='Skills' href='#Skills'
+        />
+        <Section title='SKILLS' id='Skills' href='#Skills'
           entries={skills.map((e) => {
             return (
               <Skills
@@ -63,7 +64,7 @@ function App() {
               />
             )
           })}
-        /> */}
+        />
         <Section title='EDUCATION' id='Education' href='#Education'
           entries={education.map((e) => <Education
             school={e.school}

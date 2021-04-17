@@ -14,6 +14,7 @@ function SideBar() {
                 <li> <a href='#Skills'>Skills</a></li>
                 {/* <li> <a href='#Awards'>Awards</a></li> */}
                 <li> <a href='#Education'>Education</a></li>
+                <li> <a href='#Certifications'>Certifications</a></li>
                 <li> <a href='#Contact'>Contact</a></li>
                 <li> <a href='#Resume'>Resume</a></li>
             </ul>

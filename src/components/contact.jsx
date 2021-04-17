@@ -3,7 +3,7 @@ import '../index.css';
 
 function Contact(props) {
     return (
-        <div>
+        <div className='section-inner-div'>
             <div>
                 <span>{props.email}</span>
             </div>

@@ -1,9 +1,10 @@
 /* 
 Brand Colors
-Base - #051f61
+Base - #247188
 Accent - #f0745d
-Semi neutral - #faf8ff 
+Semi neutral - #f7fdfc 
 Neutral - white
+Shadow - #a7bec7
  */
 
 body {
@@ -12,20 +13,74 @@ body {
   color: black;
 }
 
+main {
+  background-color: #f7fdfc;
+  background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
+}
+
+h1, h2 {
+  font-weight: 400;
+  color: #247188;
+}
+
+img {
+  width: 100px;
+}
+
+p {
+  margin: 0;
+}
+
 hr {
   border-right: 0;
   border-left: 0;
   border-top: 0;
-  border-bottom-width: 1px;
+  border-bottom-width: 2px;
+  color: #247188;
+}
+
+.experience-headers {
+  border-bottom: 1px solid #a7bec7;
+}
+
+.experience-headers div {
+  padding: 10px;
+  margin-right: 20px;
+  margin-left: 15px;
+  display: inline-block;
+}
+
+.inline-block {
+  margin-right: 50px;
+  margin-left: 15px;
+  display: inline-block;
+  width: fit-content;
+  max-width: 300px;
+}
+
+.hidden-div {
+  display: none;
+}
+
+.image-background {
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 170px;
+}
+
+.projects-div {
+  padding-left: 0;
+  padding-right: 0;
 }
 
 .side-bar {
   width: 220px;
   padding: 40px 0;
   height: 100%;
-  background-color: #faf8ff;
+  background-color: white;
   position: fixed;
-  color: #051f61;
+  color: #247188;
+  box-shadow: 0.2px 1px 7px #a7bec7;
 }
 
 .side-bar h1 {
@@ -60,6 +115,16 @@ hr {
   padding: 0 20px;
 }
 
+.nav-bar {
+  display: none;
+  text-align: center;
+  padding: 0;
+}
+
+.nav-bar h1 {
+  margin: 5px auto;
+}
+
 main {
   padding-left: 220px;
 }
@@ -68,12 +133,68 @@ main h1 {
   margin: 0;
 }
 
+.section {
+  padding: 50px 40px;
+}
+
+.section-inner-div {
+  background-color: white;
+  padding: 10px 10px;
+  margin-bottom: 50px;
+  box-shadow: 0.2px 1px 7px #a7bec7;
+}
+
+.experience li {
+  font-size: 90%;
+  line-height: 30px;
+}
+
 .section-title {
   padding: 30px;
-  background-color: #051f61;
+  /* background-color: #247188; */
+  background-color: #247188;
 }
 
 .section-title h1 {
-  color: #faf8ff;
+  color: #f7fdfc;
   font-weight: 100;
+}
+
+.date-div {
+  background-color: #f7fdfc;
+  padding: 20px;
+  font-size: small;
+  color: #627881;
+}
+
+.section-inner-div p, li {
+  font-size: small;
+  font-weight: 500;
+  line-height: 35px;
+}
+
+.role {
+  display: inline-block;
+  position: relative;
+  bottom: 54px;
+  left: 480px;
+}
+
+@media (max-width:1120px) {
+  .role {
+    display: relative;
+    bottom: -21px;
+    left: 26px;
+    margin-bottom: 15px;
+  }
+  .side-bar {
+    display: none;
+  }
+  main {
+    padding-left: 0;
+  }
+  .nav-bar {
+    display: block;
+    position: sticky;
+  }
 }

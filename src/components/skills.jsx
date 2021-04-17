@@ -3,15 +3,15 @@ import '../index.css';
 
 function Skills(props) {
     return (
-        <div>
+        <div className='section-inner-div'>
             <div>
                 <h1>{props.category}</h1>
             </div>
-            <div>
+            <div className='content-div'>
                 {(props.stack).forEach((e) => {
-                    <div>
-                        <span>{e.name}</span>
-                        <span> <img src={e.logo} /> </span>
+                    <div className='skill-logo-name'>
+                        <div> <img src={e.logo} /> </div>
+                        <div><p>{e.name}</p></div>
                     </div>
                 })}
             </div>
