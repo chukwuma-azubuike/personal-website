@@ -10,7 +10,7 @@ function NavBar() {
 
     return (
         <div>
-            <div className='mobile-side-div' style={{ display: sideBar ? 'block' : 'none' }}>
+            <div className='mobile-side-div' style={{ left: sideBar ? '0' : '-200px' }} >
                 <nav className='side-bar' style={{ display: sideBar ? 'block' : 'none', zIndex: 3 }}>
                     <ul>
                         <a onClick={handleClick} href='#About'><li>About</li></a>

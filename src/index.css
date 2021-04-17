@@ -42,7 +42,8 @@ hr {
 }
 
 .experience-headers {
-  border-bottom: 1px solid #a7bec7;
+  margin: 15px;
+  border-bottom: 1px solid #d7d9da;
 }
 
 .experience-headers div {
@@ -79,7 +80,7 @@ hr {
   z-index: 2;
   padding: 0;
   height: 100%;
-  /* max-width: 140px; */
+  width: 200px;
   background-color: white;
   position: fixed;
   color: #247188;
@@ -130,6 +131,7 @@ hr {
   display: none;
   padding: 9px;
   align-items: center;
+  /* justify-content: space-evenly; */
   box-shadow: 0.2px 1px 7px #718992;
 }
 
@@ -148,6 +150,11 @@ hr {
 
 .nav-bar p {
   font-size: 15px;
+}
+
+.mobile-side-div{
+  width: 190px;
+  position: relative;
 }
 
 .burger-icon {
@@ -174,7 +181,7 @@ main h1 {
 
 .section-inner-div {
   background-color: white;
-  padding: 10px 10px;
+  /* padding: 10px 10px; */
   margin-bottom: 50px;
   box-shadow: 0.2px 1px 7px #a7bec7;
 }
@@ -218,6 +225,7 @@ main h1 {
 /* Hover Effects */
 
 a li:hover {
+  transition: all 0.3s;
   background-color: #cde4ec;
 }
 
@@ -240,10 +248,14 @@ a li:hover {
     padding-left: 0;
   }
   .nav-bar {
+    transition: display 1s;
     display: block;
   }
   .mobile-side-div {
-    width: 140px;
-    display: none;
+    width: 200px;
+    transition: left ease-in-out 0.3s;
+  }
+  .side-bar{
+    box-shadow: none;
   }
 }
