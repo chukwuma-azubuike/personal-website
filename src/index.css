@@ -10,7 +10,7 @@ Shadow - #a7bec7
 body {
   font-family: 'Spartan', sans-serif;
   margin: 0;
-  color: black;
+  /* color: black; */
 }
 
 html {
@@ -29,6 +29,10 @@ h1, h2 {
   color: #247188;
 }
 
+a {
+  text-decoration: 0;
+}
+
 img {
   width: 100px;
 }
@@ -45,7 +49,36 @@ hr {
   color: #247188;
 }
 
+.about-section {
+  align-items: center;
+  display: flex;
+}
+
+.line-div {
+  width: 4px;
+  height: 10vh;
+  background-color: #c25440;
+}
+
+.about {
+  width: 90%;
+  margin: 0 auto auto 30px;
+  line-height: 30px;
+}
+
+.about h2 {
+  color: #c25440;
+}
+
+.about-desc {
+  margin-top: 2vh;
+  font-size: 1.2em;
+  line-height: 40px;
+}
+
 .section-headers {
+  display: flex;
+  align-items: center;
   margin: 15px;
   border-bottom: 1px solid #d7d9da;
 }
@@ -58,7 +91,10 @@ hr {
   padding: 10px;
   margin-right: 20px;
   margin-left: 15px;
-  display: inline-block;
+}
+
+.section-headers .company-img {
+  padding: 30px 10px;
 }
 
 .inline-block {
@@ -80,6 +116,9 @@ hr {
 }
 
 .projects-div {
+  position: relative;
+  min-width: 300px;
+  max-width: 370px;
   padding-left: 0;
   padding-right: 0;
 }
@@ -123,12 +162,18 @@ hr {
 .side-bar ul {
   padding: 0;
   margin: 0;
+  color: black;
 }
 
 .side-bar-title {
+  background: #f7fdfc;
   padding: 25px 30px;
   max-width: 160px;
-  border-bottom: 1px solid #a7bec7;
+  border-bottom: 1px solid #d4cccb;
+}
+
+.side-bar-title p{
+  color: #c25440;
 }
 
 .nav-bar {
@@ -235,11 +280,12 @@ main h1 {
   line-height: 35px;
 }
 
-.role {
+.role-1{
+  display: none;
+}
+
+.role{
   display: inline-block;
-  position: relative;
-  bottom: 68px;
-  left: 480px;
 }
 
 .pad-div {
@@ -277,14 +323,35 @@ a li:hover {
   text-decoration-thickness: 3px;
 }
 
+.certifications-desc h4 {
+  font-weight: 400;
+  margin: 30px 10px;
+}
+
 /* Responsiveness */
 
+@media (max-width:400px) {
+  .line-div {
+    height: 45vh;
+  }
+}
+
+@media (max-width:850px) {
+  .line-div {
+    height: 30vh;
+  }
+}
+
 @media (max-width:900px) {
-  .role {
-    display: relative;
+  .role-1 {
+    display: inline-block;
+    position: relative;
     bottom: -21px;
-    left: 26px;
+    left: 40px;
     margin-bottom: 25px;
+  }
+  .role{
+    display: none;
   }
 }
 
@@ -310,5 +377,8 @@ a li:hover {
   }
   .side-bar {
     box-shadow: none;
+  }
+  .line-div {
+    height: 20vh;
   }
 }

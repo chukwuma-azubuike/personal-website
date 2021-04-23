@@ -4,7 +4,7 @@ import '../index.css';
 function Certifications(props) {
     return (
         <div className='section-inner-div pad-div'>
-            <div>
+            <div className='certifications'>
                 <span>
                     <h1>{props.organisation}</h1>
                 </span>
@@ -12,8 +12,8 @@ function Certifications(props) {
                     <img src={props.organisationLogo} />
                 </span>
             </div>
-            <div>
-                <p>{props.description}</p>
+            <div className='certifications-desc'>
+                <h4>{props.description}</h4>
             </div>
         </div>
     )

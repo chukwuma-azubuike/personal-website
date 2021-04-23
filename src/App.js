@@ -9,11 +9,13 @@ import Skills from './components/skills';
 import Education from './components/education';
 import Certifications from './components/certifications';
 import Contact from './components/contact';
+import About from './components/about';
 
 // import Header from './components/header';
 
 function App() {
 
+  const about = data.about.entries;
   const experience = data.experience.entries;
   const projects = data.projects.entries;
   const skills = data.skills.entries;
@@ -26,7 +28,14 @@ function App() {
       <NavBar />
       <SideBar />
       <main>
-        <Section title='ABOUT' id='About' href='#About' />
+        <Section title='ABOUT' id='About' href='#About'
+          entries={
+            <About
+              about={about.about}
+              description={about.description}
+            />
+          }
+        />
         <Section title='EXPERIENCE' id='Experience' href='#Experience'
           entries={experience.map((e) => {
             return (

@@ -1,12 +1,23 @@
 const data = {
     about: {
-        title: 'ABOUT'
+        title: 'ABOUT',
+        entries: {
+            about: 'Highly resourceful full stack developer with a passion for excellence looking to join a cultured and innovative organisation.',
+            description: `I have always sought out worthwhile opportunities to maximise my potential. 
+            Hence, my professional career has been rather adventurous across technology and entertainment industries from engineering to entrepreneurship. 
+            I made a switch to software engineering after working 3 years as a professional sound engineer because, 
+            it was not challenging enough for me even though I had a passion for it. 
+            In those few years, I reached the echelon of success and got promoted to lead engineer. 
+            I knew I had much more potential and needed to maximise it by venturing into software engineering which is obviously tougher, 
+            more impactful and unbelievably fulfilling. I am passionate about solving problems and leveling up my skills at any moral cost. 
+            I am a life long learner driven by excellence. And for these modest reasons, I believe I'm the right candidate for this role.`
+        }
     },
     experience: {
         title: 'EXPERIENCE',
         entries: [
             {
-                companyLogo: 'https://i.ibb.co/0sZmpv5/Logo-scale-4.png',
+                companyLogo: 'https://i.ibb.co/mXbp1sG/Logo-xxxhdpi.png',
                 companyName: 'Airand Technologies',
                 role: 'Software Engineer',
                 jobDescription: '',
@@ -23,7 +34,7 @@ const data = {
                 date: 'SEPT 2020 - PRESENT'
             },
             {
-                companyLogo: 'https://i.ibb.co/0sZmpv5/Logo-scale-4.png',
+                companyLogo: 'https://i.ibb.co/mXbp1sG/Logo-xxxhdpi.png',
                 companyName: 'Airand Technologies',
                 role: 'Co-founder and Product Designer',
                 jobDescription: '',
@@ -35,7 +46,7 @@ const data = {
                 date: 'JUL 2020 - PRESENT'
             },
             {
-                companyLogo: '',
+                companyLogo: 'https://i.ibb.co/jkFvWvL/tsl.jpg',
                 companyName: 'TSL Entertainment',
                 role: 'Lead Engineer',
                 jobDescription: '',
@@ -73,7 +84,8 @@ const data = {
                     'React front-end',
                     'Node JS Backend',
                     'MongoDB database',
-                    'Authentication wtih JWT and mongoose passport'
+                    'JWT Authentication',
+                    'Mongoose passport'
                 ],
                 gitRepo: '',
                 url: ''
@@ -112,7 +124,7 @@ const data = {
                 stack: [
                     {
                         name: 'HTML5',
-                        logo: '',
+                        logo: 'https://i.ibb.co/tp9140y/html.png',
                     },
                     {
                         name: 'JSX',
@@ -125,7 +137,7 @@ const data = {
                 stack: [
                     {
                         name: 'CSS3',
-                        logo: 'https://i.ibb.co/RBjNpVg/cssPNG.png',
+                        logo: 'https://i.ibb.co/KmYNQJ5/css.png',
                     },
                     {
                         name: 'Bootstrap',
@@ -146,7 +158,7 @@ const data = {
                     },
                     {
                         name: 'jQuery',
-                        logo: 'https://i.ibb.co/yFYyvvs/j-Query-PNG.png',
+                        logo: 'https://i.ibb.co/ssbgL1Q/jQuery.png',
                     }
                 ]
             },
@@ -205,7 +217,7 @@ const data = {
                     },
                     {
                         name: 'CLI',
-                        logo: 'https://i.ibb.co/7WZ8YDT/CLI.jpg',
+                        logo: 'https://i.ibb.co/vqMq3kK/cli.png',
                     },
                     {
                         name: 'Heroku',
@@ -221,7 +233,7 @@ const data = {
                     },
                     {
                         name: 'Postman API',
-                        logo: '',
+                        logo: 'https://i.ibb.co/80SCqYp/postman-inc-logo-vector.png',
                     },
                 ]
             },
@@ -242,18 +254,18 @@ const data = {
         title: 'CERTIFICATIONS',
         entries: [
             {
-                organisation: 'Udemy',
-                organisationLogo: '',
+                // organisation: 'Udemy',
+                organisationLogo: 'https://i.ibb.co/Yh09rd2/udemy.png',
                 description: 'The Complete Web Development Bootcamp',
             },
             {
-                organisation: 'Udemy',
-                organisationLogo: '',
+                // organisation: 'Udemy',
+                organisationLogo: 'https://i.ibb.co/Yh09rd2/udemy.png',
                 description: 'Software Engineering 101',
             },
             {
-                organisation: 'Udemy',
-                organisationLogo: '',
+                // organisation: 'Udemy',
+                organisationLogo: 'https://i.ibb.co/Yh09rd2/udemy.png',
                 description: 'User Experience Design Essentials',
             }
         ]
