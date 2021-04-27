@@ -10,6 +10,7 @@ import Education from './components/education';
 import Certifications from './components/certifications';
 import Contact from './components/contact';
 import About from './components/about';
+import Intro from './components/intro'
 
 // import Header from './components/header';
 
@@ -28,6 +29,7 @@ function App() {
       <NavBar />
       <SideBar />
       <main>
+        <Intro/>
         <Section title='ABOUT' id='About' href='#About'
           entries={
             <About

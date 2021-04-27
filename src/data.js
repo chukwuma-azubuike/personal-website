@@ -88,7 +88,7 @@ const data = {
                     'Mongoose passport'
                 ],
                 gitRepo: '',
-                url: ''
+                url: 'https://keeper-app-02.herokuapp.com'
             },
             // {
             //     image: '',

@@ -33,7 +33,7 @@ a {
   text-decoration: 0;
 }
 
-img {
+.section-inner-div img {
   width: 100px;
 }
 
@@ -47,6 +47,35 @@ hr {
   border-top: 0;
   border-bottom-width: 2px;
   color: #247188;
+}
+
+.intro {
+  background: url(../src/images/nasa.jpg);
+  background-size: 110%;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+}
+
+.intro h1 {
+  color: white;
+  font-size: 3em;
+  margin: 0;
+}
+
+.intro-text {
+  padding: 40px;
+}
+
+.dark-background-text {
+  background: #c25440;
+  line-height: 10vh;
+  padding: 10px 12px 3px;
+}
+
+.underline-text {
+  border-bottom: 5px solid #c25440;
 }
 
 .about-section {
@@ -121,6 +150,60 @@ hr {
   max-width: 370px;
   padding-left: 0;
   padding-right: 0;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.projects-inner-div {
+  position: relative;
+  height: 410px;
+}
+
+.reveal-div {
+  width: 100%;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  align-items: center;
+}
+
+.date-div .button {
+  margin: auto 10px;
+  display: inline-block;
+  background: #c25440;
+  color: white;
+  justify-content: flex-start;
+  font-family: 'spartan';
+  border: none;
+  border-radius: 50px;
+  height: 60px;
+  width: 60px;
+}
+
+.open-link {
+  position: absolute;
+  margin: 18px;
+}
+
+.close {
+  margin: 0;
+}
+
+.inner-reveal-div {
+  padding: 25px;
+}
+
+.reveal-div .date-div {
+  position: relative;
+  bottom: 0px;
+}
+
+.inner-reveal-div h2 {
+  margin: 0px 5px;
+}
+
+#reveal-ul {
+  padding: 0 20px 0 30px;
 }
 
 .side-bar {
@@ -152,6 +235,7 @@ hr {
 .side-bar li {
   padding: 10px 35px;
   list-style: none;
+  font-weight: 400;
 }
 
 .side-bar a {
@@ -172,7 +256,7 @@ hr {
   border-bottom: 1px solid #d4cccb;
 }
 
-.side-bar-title p{
+.side-bar-title p {
   color: #c25440;
 }
 
@@ -280,11 +364,11 @@ main h1 {
   line-height: 35px;
 }
 
-.role-1{
+.role-1 {
   display: none;
 }
 
-.role{
+.role {
   display: inline-block;
 }
 
@@ -317,6 +401,10 @@ a li:hover {
   background-color: #cde4ec;
 }
 
+.date-div button:hover {
+  box-shadow: 1px 1px 30px 5px #d4cccb;
+}
+
 .contacts div a:hover {
   transition: all 3s;
   text-decoration: underline;
@@ -326,6 +414,12 @@ a li:hover {
 .certifications-desc h4 {
   font-weight: 400;
   margin: 30px 10px;
+}
+
+/* Active Effects */
+
+a li:active {
+  background-color: #a2bec7;
 }
 
 /* Responsiveness */
@@ -350,8 +444,32 @@ a li:hover {
     left: 40px;
     margin-bottom: 25px;
   }
-  .role{
+  .role {
     display: none;
+  }
+}
+
+@media (max-width:1150px) {
+  .intro {
+    background-size: 131%;
+  }
+}
+
+@media (max-width:790px) {
+  .intro {
+    background-size: 150%;
+  }
+}
+
+@media (max-width:692px) {
+  .intro {
+    background-size: 200%;
+  }
+}
+
+@media (max-width:528px) {
+  .intro {
+    background-size: 250%;
   }
 }
 
