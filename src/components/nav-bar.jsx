@@ -1,5 +1,13 @@
 import React, { useState } from 'react';
 import '../index.css';
+import PersonRoundedIcon from '@material-ui/icons/PersonRounded';
+import TrendingUpIcon from '@material-ui/icons/TrendingUp';
+import DashboardRoundedIcon from '@material-ui/icons/DashboardRounded';
+import EqualizerOutlinedIcon from '@material-ui/icons/EqualizerOutlined';
+import SchoolRoundedIcon from '@material-ui/icons/SchoolRounded';
+import PermContactCalendarRoundedIcon from '@material-ui/icons/PermContactCalendarRounded';
+import VerifiedUserRoundedIcon from '@material-ui/icons/VerifiedUserRounded';
+import DescriptionRoundedIcon from '@material-ui/icons/DescriptionRounded';
 
 function NavBar() {
     const [sideBar, setSideBar] = useState(false)
@@ -13,15 +21,15 @@ function NavBar() {
             <div className='mobile-side-div' style={{ left: sideBar ? '0' : '-200px' }} >
                 <nav className='side-bar' style={{ display: sideBar ? 'block' : 'none', zIndex: 4 }}>
                     <ul>
-                        <a onClick={handleClick} href='#About'><li>About</li></a>
-                        <a onClick={handleClick} href='#Experience'><li>Experience</li></a>
-                        <a onClick={handleClick} href='#Projects'><li>Projects</li></a>
-                        <a onClick={handleClick} href='#Skills'><li>Skills</li></a>
+                        <a onClick={handleClick} href='#About'><li> <PersonRoundedIcon className='list-icon' style={{ fontSize: 25 }} /> About</li></a>
+                        <a onClick={handleClick} href='#Experience'><li> <TrendingUpIcon className='list-icon' style={{ fontSize: 25, color: '#89df18' }} /> Experience</li></a>
+                        <a onClick={handleClick} href='#Projects'><li> <DashboardRoundedIcon className='list-icon' style={{ fontSize: 25, color: '#ae20b3' }} /> Projects</li></a>
+                        <a onClick={handleClick} href='#Skills'><li> <EqualizerOutlinedIcon className='list-icon' style={{ fontSize: 25, color: '#1aaedb' }} /> Skills</li></a>
                         {/* <li> <a href='#Awards'>Awards</a></li> */}
-                        <a onClick={handleClick} href='#Education'><li>Education</li></a>
-                        <a onClick={handleClick} href='#Certifications'><li>Certifications</li></a>
-                        <a onClick={handleClick} href='#Contact'><li>Contact</li></a>
-                        <a onClick={handleClick} href='#Resume'><li>Resume</li></a>
+                        <a onClick={handleClick} href='#Education'><li> <SchoolRoundedIcon className='list-icon' style={{ fontSize: 25, color: '#b3193a' }} /> Education</li></a>
+                        <a onClick={handleClick} href='#Certifications'><li> <VerifiedUserRoundedIcon className='list-icon' style={{ fontSize: 25, color: '#7a7a77' }} /> Certifications</li></a>
+                        <a onClick={handleClick} href='#Contact'><li> <PermContactCalendarRoundedIcon className='list-icon' style={{ fontSize: 25, color: '#d4d43b' }} /> Contact</li></a>
+                        <a onClick={handleClick} href='#Resume'><li> <DescriptionRoundedIcon className='list-icon' style={{ fontSize: 25, color: 'black' }} /> Resume</li></a>
                     </ul>
                 </nav>
                 <div style={{
