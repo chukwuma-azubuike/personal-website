@@ -276,16 +276,15 @@ hr {
   position: fixed;
   top: 0;
   display: none;
-  padding: 9px;
+  padding: 9px 0px;
   align-items: center;
   box-shadow: 0.2px 1px 7px #718992;
 }
 
 .nav-title {
-  padding-left: 4%;
-  margin-right: 35%;
   width: 100%;
   text-align: center;
+  margin: auto;
 }
 
 .nav-bar h1 {
@@ -307,15 +306,14 @@ hr {
 .burger-icon {
   position: relative;
   top: 11px;
-  left: 11px;
+  left: 21px;
   float: left;
   color: #247188;
   font-size: 27px;
 }
 
 .burger-icon-div {
-  position: relative;
-  align-self: flex-start;
+  position: absolute;
 }
 
 main h1 {
