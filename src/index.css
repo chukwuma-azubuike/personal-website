@@ -170,7 +170,7 @@ hr {
   align-items: center;
 }
 
-.date-div .button {
+.date-div .button, .contact-icons {
   margin: auto 10px;
   display: inline-block;
   background: #c25440;
@@ -397,8 +397,6 @@ main h1 {
   text-align: center;
 }
 
-.contacts {}
-
 .contacts div {
   margin: 50px 5px;
 }
@@ -408,6 +406,19 @@ main h1 {
   color: #247188;
 }
 
+.contacts-div a{
+  align-items: center;
+}
+
+.contacts-div a{
+  position: relative;
+}
+
+.contact-details{
+  bottom: 21px;
+  left: 10px;
+}
+
 /* Hover Effects */
 
 a li:hover {
@@ -415,7 +426,7 @@ a li:hover {
   background-color: #cde4ec;
 }
 
-.date-div button:hover {
+.date-div .button:hover, .contact-icons:hover {
   box-shadow: 1px 1px 30px 5px #d4cccb;
 }
 
