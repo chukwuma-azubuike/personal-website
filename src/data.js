@@ -2,15 +2,10 @@ const data = {
     about: {
         title: 'ABOUT',
         entries: {
-            about: 'Highly resourceful full stack developer with a passion for excellence looking to join a cultured and innovative organisation.',
-            description: `I have always sought out worthwhile opportunities to maximise my potential. 
-            Hence, my professional career has been rather adventurous across technology and entertainment industries from engineering to entrepreneurship. 
-            I made a switch to software engineering after working 3 years as a professional sound engineer because, 
-            it was not challenging enough for me even though I had a passion for it. 
-            In those few years, I reached the echelon of success and got promoted to lead engineer. 
-            I knew I had much more potential and needed to maximise it by venturing into software engineering which is obviously tougher, 
-            more impactful and unbelievably fulfilling. I am passionate about solving problems and leveling up my skills at any moral cost. 
-            I am a life long learner driven by excellence. And for these modest reasons, I believe I'm the right candidate for this role.`
+            about: 'Highly resourceful full stack developer with a passion for solving problems, collaboration and excellence.',
+            description: `I have always sought out worthwhile opportunities to maximise my potential. Hence, my professional career has been rather adventurous cutting across the technology and entertainment industries from engineering to entrepreneurship.\n 
+            I made a switch to software engineering after working 3 years as a professional sound engineer because, it was not challenging enough for me even though I had a passion for it. In those few years, I reached the echelon of success and got promoted to lead engineer.\n 
+            I knew I had much more potential and needed to maximise it by venturing into software engineering which is obviously tougher, more impactful and unbelievably fulfilling. I am passionate about solving problems and leveling up my skills at any moral cost. I constantly strive to be a life long learner totally dedicated to the success of my team.`
         }
     },
     experience: {
@@ -36,7 +31,7 @@ const data = {
             {
                 companyLogo: 'https://i.ibb.co/mXbp1sG/Logo-xxxhdpi.png',
                 companyName: 'Airand Technologies',
-                role: 'Co-founder and Product Designer',
+                role: 'Product Designer',
                 jobDescription: '',
                 responsibilities: [
                     'Responsible for product road-map and feature design',
@@ -274,8 +269,8 @@ const data = {
         title: 'CONTACT',
         email: 'chukwumaazubuike@gmail.com',
         phone: '+234 708 559 0939',
-        github: 'https://www.linkedin.com/mwlite/in/chukwuma-azubuike-29b28ab9',
-        linkedIn: 'https://github.com/chukwuma-azubuike'
+        github: 'https://github.com/chukwuma-azubuike',
+        linkedIn: 'https://www.linkedin.com/in/chukwuma-azubuike-29b28ab9/'
     }
 }
 

@@ -29,7 +29,7 @@ function NavBar() {
                         <a onClick={handleClick} href='#Education'><li> <SchoolRoundedIcon className='list-icon' style={{ fontSize: 25, color: '#b3193a' }} /> Education</li></a>
                         <a onClick={handleClick} href='#Certifications'><li> <VerifiedUserRoundedIcon className='list-icon' style={{ fontSize: 25, color: '#7a7a77' }} /> Certifications</li></a>
                         <a onClick={handleClick} href='#Contact'><li> <PermContactCalendarRoundedIcon className='list-icon' style={{ fontSize: 25, color: '#d4d43b' }} /> Contact</li></a>
-                        <a onClick={handleClick} href='#Resume'><li> <DescriptionRoundedIcon className='list-icon' style={{ fontSize: 25, color: 'black' }} /> Resume</li></a>
+                        {/* <a onClick={handleClick} href='#Resume'><li> <DescriptionRoundedIcon className='list-icon' style={{ fontSize: 25, color: 'black' }} /> Resume</li></a> */}
                     </ul>
                 </nav>
                 <div style={{

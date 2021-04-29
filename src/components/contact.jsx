@@ -14,10 +14,12 @@ function Contact(props) {
                 <a href={props.github}><span>{props.github}</span></a>
             </div>
             <div>
-                <a href={props.linkedIn}><span>{props.linkedIn}</span></a>
+                <a href={props.linkedIn}>www.linkedin.com/chukwuma-azubuike/</a>
             </div>
         </div>
     )
+
+
 }
 
 export default Contact;

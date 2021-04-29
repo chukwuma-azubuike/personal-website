@@ -14,6 +14,7 @@ body {
 }
 
 html {
+  -webkit-tap-highlight-color: transparent;
   scroll-behavior: smooth;
 }
 
@@ -129,7 +130,7 @@ hr {
 }
 
 .inline-block {
-  margin-right: 30px;
+  margin-right: 3vw;
   margin-left: 15px;
   display: inline-block;
   width: fit-content;
@@ -148,7 +149,7 @@ hr {
 
 .projects-div {
   position: relative;
-  min-width: 300px;
+  min-width: 250px;
   max-width: 370px;
   padding-left: 0;
   padding-right: 0;
@@ -396,6 +397,8 @@ main h1 {
   text-align: center;
 }
 
+.contacts {}
+
 .contacts div {
   margin: 50px 5px;
 }
@@ -435,10 +438,31 @@ a li:active {
 
 /* Responsiveness */
 
-@media (max-width:400px) {
+/* @media (max-width:321px) {
+  .company-name h2, .role-1 {
+    font-size: 2vw;
+  }
+} */
+
+@media (max-width:420px) {
   .line-div {
     height: 45vh;
   }
+  .company-name h2, .role-1 {
+    font-size: 4vw;
+  }
+  .inner-reveal-div h2 {
+    font-size: 5vw;
+  }
+  /* .nav-bar h1 {
+    font-size: 4vw;
+  }
+  .nav-bar p{
+    font-size: 3vw;
+  }
+  .burger-icon{
+    font-size: 5.5vw;
+  } */
 }
 
 @media (max-width:850px) {
@@ -468,19 +492,19 @@ a li:active {
 
 @media (max-width:790px) {
   .intro {
-    background-size: 190%;
+    background-size: 250%;
   }
 }
 
 @media (max-width:692px) {
   .intro {
-    background-size: 230%;
+    background-size: 300%;
   }
 }
 
 @media (max-width:528px) {
   .intro {
-    background-size: 260%;
+    background-size: 360%;
   }
 }
 
