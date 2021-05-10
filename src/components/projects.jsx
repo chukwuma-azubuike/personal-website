@@ -8,7 +8,7 @@ function Projects(props) {
     const [popup, setPopup] = useState(false);
 
     return (
-        <div className='section-inner-div projects-div' style={{ padding: 0, width: '50%' }}>
+        <div className='section-inner-div projects-div'>
             <div className='projects-inner-div'>
                 <div className='image-background' style={{ backgroundImage: `url(${props.image})` }}>
                     {/* <img src={props.image} /> */}

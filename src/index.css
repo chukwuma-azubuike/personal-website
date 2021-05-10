@@ -149,12 +149,14 @@ hr {
 
 .projects-div {
   position: relative;
+  width: 50%;
   min-width: 250px;
   max-width: 370px;
   padding-left: 0;
   padding-right: 0;
   display: inline-block;
   overflow: hidden;
+  margin: auto 50px auto auto;
 }
 
 .projects-inner-div {
@@ -406,15 +408,15 @@ main h1 {
   color: #247188;
 }
 
-.contacts-div a{
+.contacts-div a {
   align-items: center;
 }
 
-.contacts-div a{
+.contacts-div a {
   position: relative;
 }
 
-.contact-details{
+.contact-details {
   bottom: 21px;
   left: 10px;
 }
@@ -465,15 +467,9 @@ a li:active {
   .inner-reveal-div h2 {
     font-size: 5vw;
   }
-  /* .nav-bar h1 {
-    font-size: 4vw;
+  .projects-div {
+    min-width: 100%;
   }
-  .nav-bar p{
-    font-size: 3vw;
-  }
-  .burger-icon{
-    font-size: 5.5vw;
-  } */
 }
 
 @media (max-width:850px) {
@@ -498,6 +494,9 @@ a li:active {
 @media (max-width:1150px) {
   .intro {
     background-size: 145%;
+  }
+  .projects-div {
+    width: 42%;
   }
 }
 

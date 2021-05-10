@@ -85,14 +85,20 @@ const data = {
                 gitRepo: '',
                 url: 'https://keeper-app-02.herokuapp.com'
             },
-            // {
-            //     image: '',
-            //     title: '',
-            //     description: '',
-            //     accomplishments: [],
-            //     gitRepo: '',
-            //     url: ''
-            // },
+            {
+                image: 'https://i.ibb.co/k9D8tt5/Gig-photo2.png',
+                title: 'Airand',
+                description: 'Booking, payment and tracking of logistics services',
+                accomplishments: [
+                    'Map tracking',
+                    'Flutterwave Rave',
+                    'Node JS Backend',
+                    'Microsoft Azure',
+                    'MySQL database',
+                ],
+                gitRepo: '',
+                url: 'https://www.airand.net/order'
+            },
             // {
             //     image: '',
             //     title: '',
