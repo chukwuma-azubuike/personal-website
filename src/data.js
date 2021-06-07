@@ -99,14 +99,18 @@ const data = {
                 gitRepo: '',
                 url: 'https://www.airand.net/order'
             },
-            // {
-            //     image: '',
-            //     title: '',
-            //     description: '',
-            //     accomplishments: [],
-            //     gitRepo: '',
-            //     url: ''
-            // },
+            {
+                image: 'https://i.ibb.co/1qGKh6Z/klasha.png',
+                title: 'Klasha',
+                description: "UI implementaion for Klasha's responsive dashboard",
+                accomplishments: [
+                    'Built in React',
+                    'reusable components',
+                    'Fully responsive',
+                ],
+                gitRepo: '',
+                url: 'https://klasha-dashboard.herokuapp.com/'
+            },
             // {
             //     image: '',
             //     title: '',
