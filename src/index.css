@@ -161,7 +161,7 @@ hr {
 
 .projects-inner-div {
   position: relative;
-  height: 410px;
+  height: 380px;
 }
 
 .reveal-div {
@@ -215,7 +215,7 @@ hr {
   z-index: 2;
   padding: 0;
   height: 100%;
-  width: 210px;
+  width: 200px;
   background-color: white;
   position: fixed;
   top: -1px;
@@ -516,14 +516,20 @@ a li:active {
   .intro {
     background-size: 360%;
   }
+  .side-bar {
+    display: none;
+  }
+}
+
+@media (min-width:540px) {
+  .side-bar{
+    width: 210px;
+  }
 }
 
 @media (max-width:1000px) {
   html {
     scroll-padding-top: 70px;
-  }
-  .side-bar {
-    display: none;
   }
   main {
     margin-top: 70px;

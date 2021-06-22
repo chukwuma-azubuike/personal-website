@@ -2,10 +2,10 @@ const data = {
     about: {
         title: 'ABOUT',
         entries: {
-            about: 'Highly resourceful full stack developer with a passion for solving problems, collaboration and excellence.',
-            description: `I have always sought out worthwhile opportunities to maximise my potential. Hence, my professional career has been rather adventurous cutting across the technology and entertainment industries from engineering to entrepreneurship.\n 
-            I made a switch to software engineering after working 3 years as a professional sound engineer because, it was not challenging enough for me even though I had a passion for it. In those few years, I reached the echelon of success and got promoted to lead engineer.\n 
-            I knew I had much more potential and needed to maximise it by venturing into software engineering which is obviously tougher, more impactful and unbelievably fulfilling. I am passionate about solving problems and leveling up my skills at any moral cost. I constantly strive to be a life long learner totally dedicated to the success of my team.`
+            about: 'Highly resourceful frontend developer with a passion for solving problems, collaboration and excellence.',
+            description: `Knowledgeable Frontend Developer adept at designing, developing and supporting software products that meet customer needs.\n
+            Experienced in collaborating with customers to gather requirements, produce plans and improve designs for usability and functionality throughout product life cycle.\n 
+            Fully proficient in React, Javascript and Node Js. Experienced in product and graphics design with Adobe XD, Figma and Adobe Illustrator.`
         }
     },
     experience: {
@@ -14,16 +14,16 @@ const data = {
             {
                 companyLogo: 'https://i.ibb.co/mXbp1sG/Logo-xxxhdpi.png',
                 companyName: 'Airand Technologies',
-                role: 'Software Engineer',
+                role: 'Frontend Developer',
                 jobDescription: '',
                 responsibilities: [
-                    'Full stack role: jointly responsible for system architecture and long-term planning',
-                    'Lead front-end development: building responsive web app designs, integrating with custom and 3rd party APIs',
-                    'Implementing production Dev Ops on Microsoft Azure',
-                    'Building RESTful APIs',
-                    'Developing Node JS back-end web apps',
-                    'Designing and implementing SQL and NoSQL database',
-                    'Collaborating in the design and development of fully featured logistics service booking platform with GPS tracking enabled by Google Maps APIs and cloud services.'
+                    'Created interactive websites using React framework and integrating with Restful APIs',
+                    'Managed full-cycle design tasks, handling all phases from conception to completion while maintaining brand consistency and user experience guidelines throughout',
+                    'Developed user-oriented visuals and features using front-end languages, including HTML, CSS and Javascript , to increase site traffic by 30%',
+                    'Wrote highly maintainable, solid code for web app booking system, forming core framework',
+                    'Cooperated with cross-functional team of designers, engineers, product managers and business analysts to determine comprehensive list of requirement specifications for new applications.',
+                    'Adjusted design parameters to boost performance and incorporate new features',
+                    'Worked with customers for needs analysis, minimum viable product development and vendor costs to produce competitive pricing models.'
                 ],
                 accomplishments: [],
                 date: 'SEPT 2020 - PRESENT'
@@ -34,8 +34,12 @@ const data = {
                 role: 'Product Designer',
                 jobDescription: '',
                 responsibilities: [
-                    'Responsible for product road-map and feature design',
-                    'Designed preliminary UI and UX'
+                    'Brainstormed with peers and other members of design team to determine enhancements and product features',
+                    'Suggested enhancements to product design that would improve user experience.',
+                    'Identified changes in project scope and modified job schedule accordingly',
+                    'Converted project specifications into drawings and other materials that would be used to create product',
+                    'Produced rapid prototypes using Adobe XD.',
+                    'Saved $1200 on minimum viable product design by implementing first principles.'
                 ],
                 accomplishments: [],
                 date: 'JUL 2020 - PRESENT'
@@ -46,9 +50,12 @@ const data = {
                 role: 'Lead Engineer',
                 jobDescription: '',
                 responsibilities: [
-                    'Designed sound reinforcement systems for all scales of live sound production',
-                    'Mixed and mastered live and studio productions',
-                    'Trained and oriented new and existing technical staff'
+                    'Led our team of engineers and technical staff to plan and execute live event productions catering for audience capacities from 100 to 60,000 achieving overall success rate of 98%',
+                    'Collaborated with 12 clients per quarter to determine project scopes and set milestones.',
+                    'Trained and oriented new and existing technical staff',
+                    'Collaborated with producers and performers to determine and achieve desired sound for productions',
+                    'Used Studio one, Logic pro and Pro tools to record, mix and edit tracks',
+                    'Separated instruments, vocals and peripheral sounds and mixed during post-production stage'
                 ],
                 accomplishments: [],
                 date: 'JAN 2017 - MAR 2020',
@@ -111,6 +118,27 @@ const data = {
                 gitRepo: '',
                 url: 'https://klasha-dashboard.herokuapp.com/'
             },
+            {
+                image: 'https://i.ibb.co/jHP8Wds/prospa.png',
+                title: 'Prospa',
+                description: 'UI implementation for Prospa Inc. Electronic Business banking for Entrepreneurs',
+                accomplishments: [
+                    'React Web App',
+                    'Chart with Charts.js',
+                    'Page routing animation',
+                    'Mobile responsive'
+                ],
+                gitRepo: '',
+                url: 'http://prospa-web-app.herokuapp.com/'
+            },
+            // {
+            //     image: '',
+            //     title: '',
+            //     description: '',
+            //     accomplishments: [],
+            //     gitRepo: '',
+            //     url: ''
+            // },
             // {
             //     image: '',
             //     title: '',

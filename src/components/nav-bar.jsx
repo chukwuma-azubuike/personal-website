@@ -18,8 +18,8 @@ function NavBar() {
 
     return (
         <div>
-            <div className='mobile-side-div' style={{ left: sideBar ? '0' : '-200px' }} >
-                <nav className='side-bar' style={{ display: sideBar ? 'block' : 'none', zIndex: 4 }}>
+            <div className='mobile-side-div' style={{ left: sideBar ? '0' : '-212px', transition: 'all 0.3s' }} >
+                <nav className='side-bar' style={{ display: 'block', zIndex: '4' }}>
                     <ul>
                         <a onClick={handleClick} href='#About'><li> <PersonRoundedIcon className='list-icon' style={{ fontSize: 25 }} /> About</li></a>
                         <a onClick={handleClick} href='#Experience'><li> <TrendingUpIcon className='list-icon' style={{ fontSize: 25, color: '#89df18' }} /> Experience</li></a>
