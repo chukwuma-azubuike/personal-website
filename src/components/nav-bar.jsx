@@ -52,7 +52,7 @@ function NavBar() {
                 </div>
                 <div className='nav-title'>
                     <h1>Chukwuma Azubuike</h1>
-                    <p>Full Stack Developer</p>
+                    <p>Front End Developer</p>
                 </div>
             </nav>
         </div>

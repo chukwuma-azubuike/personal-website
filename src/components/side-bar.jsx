@@ -21,7 +21,7 @@ function SideBar() {
         <nav className='side-bar'>
             <div className='side-bar-title'>
                 <h1>Chukwuma Azubuike</h1>
-                <p>Full Stack Developer</p>
+                <p>Front End Developer</p>
             </div>
             <ul>
                 <a href='#About'><li> <PersonRoundedIcon className='list-icon' style={{ fontSize: 25 }} /> About</li></a>
