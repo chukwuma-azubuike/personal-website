@@ -79,6 +79,45 @@ const data = {
         title: 'PROJECTS',
         entries: [
             {
+                image: 'https://i.ibb.co/jHP8Wds/prospa.png',
+                title: 'Prospa',
+                description: 'UI implementation for Prospa Inc. Electronic Business banking for Entrepreneurs',
+                accomplishments: [
+                    'React Web App',
+                    'Chart with Charts.js',
+                    'Page routing animation',
+                    'Mobile responsive'
+                ],
+                gitRepo: '',
+                url: 'https://chukwuma-azubuike.github.io/dashboard'
+            },
+            // {
+            //     image: 'https://i.ibb.co/k9D8tt5/Gig-photo2.png',
+            //     title: 'Airand',
+            //     description: 'Booking, payment and tracking of logistics services',
+            //     accomplishments: [
+            //         'Map tracking',
+            //         'Flutterwave Rave',
+            //         'Node JS Backend',
+            //         'Microsoft Azure',
+            //         'MySQL database',
+            //     ],
+            //     gitRepo: '',
+            //     url: 'https://www.airand.net/order'
+            // },
+            {
+                image: 'https://i.ibb.co/1qGKh6Z/klasha.png',
+                title: 'Klasha',
+                description: "UI implementaion for Klasha's responsive dashboard",
+                accomplishments: [
+                    'Built in React',
+                    'reusable components',
+                    'Fully responsive',
+                ],
+                gitRepo: '',
+                url: 'https://chukwuma-azubuike.github.io/Klasha-Dashboard/'
+            },
+            {
                 image: 'https://i.ibb.co/xSFBMZJ/Gig-photo3-2.png',
                 title: 'Keeper App',
                 description: 'Create and store notes securely',
@@ -91,45 +130,6 @@ const data = {
                 ],
                 gitRepo: '',
                 url: 'https://keeper-app-02.herokuapp.com'
-            },
-            {
-                image: 'https://i.ibb.co/k9D8tt5/Gig-photo2.png',
-                title: 'Airand',
-                description: 'Booking, payment and tracking of logistics services',
-                accomplishments: [
-                    'Map tracking',
-                    'Flutterwave Rave',
-                    'Node JS Backend',
-                    'Microsoft Azure',
-                    'MySQL database',
-                ],
-                gitRepo: '',
-                url: 'https://www.airand.net/order'
-            },
-            {
-                image: 'https://i.ibb.co/1qGKh6Z/klasha.png',
-                title: 'Klasha',
-                description: "UI implementaion for Klasha's responsive dashboard",
-                accomplishments: [
-                    'Built in React',
-                    'reusable components',
-                    'Fully responsive',
-                ],
-                gitRepo: '',
-                url: 'https://klasha-dashboard.herokuapp.com/'
-            },
-            {
-                image: 'https://i.ibb.co/jHP8Wds/prospa.png',
-                title: 'Prospa',
-                description: 'UI implementation for Prospa Inc. Electronic Business banking for Entrepreneurs',
-                accomplishments: [
-                    'React Web App',
-                    'Chart with Charts.js',
-                    'Page routing animation',
-                    'Mobile responsive'
-                ],
-                gitRepo: '',
-                url: 'http://prospa-web-app.herokuapp.com/'
             },
             // {
             //     image: '',
