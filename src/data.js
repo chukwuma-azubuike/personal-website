@@ -89,7 +89,7 @@ const data = {
                     'Mobile responsive'
                 ],
                 gitRepo: '',
-                url: 'https://chukwuma-azubuike.github.io/dashboard'
+                url: 'https://chukwuma-azubuike.github.io/prospa-web'
             },
             // {
             //     image: 'https://i.ibb.co/k9D8tt5/Gig-photo2.png',
