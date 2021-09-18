@@ -12,6 +12,23 @@ const data = {
         title: 'EXPERIENCE',
         entries: [
             {
+                companyLogo: 'https://i.ibb.co/5r7xJfy/mark-text-black-1.png',
+                companyName: 'Tasq Productivity Software',
+                role: 'Frontend Developer',
+                jobDescription: '',
+                responsibilities: [
+                    'Built interactive web app using React framework and integrated with private and public Restful APIs',
+                    'Led the frontend developer team to design and build web application from MVP to pilot run',
+                    'Designed frontend architecture with React and Redux industry best practices',
+                    'Wrote highly reusable, maintainable and robust code for software implementation',
+                    'Participated in code reviews, design discussions and implemented well written unit tests',
+                    'Built entire scope of aesthetically pleasing and scalable UI features/ components',
+                    'Achieved 20% performance boost in web app by code refactoring and optimization'
+                ],
+                accomplishments: [],
+                date: 'AUG 2021 - PRESENT'
+            },
+            {
                 companyLogo: 'https://i.ibb.co/mXbp1sG/Logo-xxxhdpi.png',
                 companyName: 'Airand Technologies',
                 role: 'Frontend Developer',
