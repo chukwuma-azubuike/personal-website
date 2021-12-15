@@ -11,14 +11,13 @@ function Projects(props) {
         <div className='section-inner-div projects-div'>
             <div className='projects-inner-div'>
                 <div className='image-background' style={{ backgroundImage: `url(${props.image})` }}>
-                    {/* <img src={props.image} /> */}
                 </div>
                 <div style={{ padding: '20px' }}>
-                    <a href={'javascript:void(0);'}
+                    <span style={{ cursor: 'pointer' }}
                         onClick={() => {
                             setPopup(true)
                         }}
-                    ><h2>{props.title}</h2></a>
+                    ><h2>{props.title}</h2></span>
                     <div>
                         <p>{props.description}</p>
                     </div>
@@ -38,7 +37,7 @@ function Projects(props) {
                         style={{
                             textAlign: 'right',
                         }}>
-                        <a href={'javascript:void(0);'}
+                        <span style={{ cursor: 'pointer' }}
                             onClick={() => {
                                 setPopup(false)
                             }}>
@@ -47,7 +46,7 @@ function Projects(props) {
                                     color: '#c25440'
                                 }}
                             />
-                        </a>
+                        </span>
                     </div>
                     <h2>Accomplishments</h2>
                     <div>
@@ -56,7 +55,11 @@ function Projects(props) {
                         </ul>
                     </div>
                 </div>
-                <div className='date-div'>
+                <div className='date-div' style={{
+                    position: 'absolute',
+                    width: '100%',
+                    bottom: 0
+                }} >
                     <a href={props.url} target='_blank'><div className='button'> <OpenInNewIcon className='open-link' /> </div></a>
                 </div>
             </div>

@@ -1,5 +1,4 @@
 import React from 'react';
-import introImage from '../images/nasa.jpg';
 
 function Intro() {
 

@@ -29,7 +29,7 @@ function App() {
       <NavBar />
       <SideBar />
       <main>
-        <Intro/>
+        <Intro />
         <Section title='ABOUT' id='About' href='#About'
           entries={
             <About
@@ -52,7 +52,7 @@ function App() {
             )
           })}
         />
-        <Section title='PROJECTS' id='Projects' href='#Projects'
+        <Section title='PROJECTS' id='Projects' href='#Projects' className='projects-grid'
           entries={projects.map((e) => {
             return (
               <Projects

@@ -2,10 +2,10 @@ const data = {
     about: {
         title: 'ABOUT',
         entries: {
-            about: 'Highly resourceful frontend developer with a passion for solving problems, collaboration and excellence.',
-            description: `Knowledgeable Frontend Developer adept at designing, developing and supporting software products that meet customer needs.\n
-            Experienced in collaborating with customers to gather requirements, produce plans and improve designs for usability and functionality throughout product life cycle.\n 
-            Fully proficient in React, Javascript and Node Js. Experienced in product and graphics design with Adobe XD, Figma and Adobe Illustrator.`
+            about: 'Knowledgeable Frontend Developer adept at designing, developing and maintaining excellent user interfaces and frontend features.',
+            description: `Very proficient in React, Redux, Typescript, Javascript, Tailwind, HTML, CSS and Node Js.\n 
+            Possessing a good understanding of backend design concepts in implementing REST and GraphQL APIs, business logic, databases and models.\n
+            Advocate for implementing well tested and documented code. Experienced in building well architected scalable web apps requiring complex state management.`
         }
     },
     experience: {
@@ -96,6 +96,46 @@ const data = {
         title: 'PROJECTS',
         entries: [
             {
+                image: 'https://i.ibb.co/z8KmWJW/koje.jpg',
+                title: 'KojeOriginals',
+                description: 'E-commerce for Exclusive African Attires',
+                accomplishments: [
+                    'React JS',
+                    'Redux',
+                    'Tailwind CSS',
+                    'Ascend by Wix Chat bot',
+                    'Google Maps  API',
+                ],
+                gitRepo: '',
+                url: 'https://www.kojeoriginals.com'
+            },
+            {
+                image: 'https://i.ibb.co/4KxK6bh/revelation-Pictures.png',
+                title: 'The Revelation Pictures',
+                description: 'Iconic Movie Production Company',
+                accomplishments: [
+                    'React',
+                    'Tailwind CSS',
+                    'React Router DOM Page routing',
+                    'Mobile responsive',
+                    'Send Grid Automated Emails'
+                ],
+                gitRepo: '',
+                url: 'https://www.therevelationpictures.com'
+            },
+            {
+                image: 'https://i.ibb.co/xH9H56j/allbase.png',
+                title: 'Allbase Admin Portal',
+                description: 'Administration Dashboard for Solar Inverter IOT',
+                accomplishments: [
+                    'React JS',
+                    'Tailwind CSS',
+                    'Materials UI'
+                ],
+                gitRepo: '',
+                url: 'https://chukwuma-azubuike.github.io/allbase/'
+            },
+            {
                 image: 'https://i.ibb.co/jHP8Wds/prospa.png',
                 title: 'Prospa',
                 description: 'UI implementation for Prospa Inc. Electronic Business banking for Entrepreneurs',
@@ -108,20 +148,6 @@ const data = {
                 gitRepo: '',
                 url: 'https://chukwuma-azubuike.github.io/prospa-web'
             },
-            // {
-            //     image: 'https://i.ibb.co/k9D8tt5/Gig-photo2.png',
-            //     title: 'Airand',
-            //     description: 'Booking, payment and tracking of logistics services',
-            //     accomplishments: [
-            //         'Map tracking',
-            //         'Flutterwave Rave',
-            //         'Node JS Backend',
-            //         'Microsoft Azure',
-            //         'MySQL database',
-            //     ],
-            //     gitRepo: '',
-            //     url: 'https://www.airand.net/order'
-            // },
             {
                 image: 'https://i.ibb.co/1qGKh6Z/klasha.png',
                 title: 'Klasha',
@@ -134,20 +160,20 @@ const data = {
                 gitRepo: '',
                 url: 'https://chukwuma-azubuike.github.io/Klasha-Dashboard/'
             },
-            {
-                image: 'https://i.ibb.co/xSFBMZJ/Gig-photo3-2.png',
-                title: 'Keeper App',
-                description: 'Create and store notes securely',
-                accomplishments: [
-                    'React front-end',
-                    'Node JS Backend',
-                    'MongoDB database',
-                    'JWT Authentication',
-                    'Mongoose passport'
-                ],
-                gitRepo: '',
-                url: 'https://keeper-app-02.herokuapp.com'
-            },
+            // {
+            //     image: 'https://i.ibb.co/xSFBMZJ/Gig-photo3-2.png',
+            //     title: 'Keeper App',
+            //     description: 'Create and store notes securely',
+            //     accomplishments: [
+            //         'React front-end',
+            //         'Node JS Backend',
+            //         'MongoDB database',
+            //         'JWT Authentication',
+            //         'Mongoose passport'
+            //     ],
+            //     gitRepo: '',
+            //     url: 'https://keeper-app-02.herokuapp.com'
+            // },
             // {
             //     image: '',
             //     title: '',
@@ -183,7 +209,7 @@ const data = {
                 ]
             },
             {
-                category: 'CSS',
+                category: 'STYLING',
                 stack: [
                     {
                         name: 'CSS3',
@@ -193,18 +219,35 @@ const data = {
                         name: 'Bootstrap',
                         logo: 'https://i.ibb.co/YcVtGx5/bootstrap.png',
                     },
+                    {
+                        name: 'Tailwind CSS',
+                        logo: 'https://i.ibb.co/rkvht9Q/Tailwind-CSS-Logo-svg.png',
+                    },
+                    ,
+                    {
+                        name: 'Styled Components',
+                        logo: 'https://i.ibb.co/kytPj5V/styled-Components-Logo.png',
+                    },
                 ]
             },
             {
-                category: 'Javascript',
+                category: 'SCRIPTS, LIBRARIES AND FRAMEWORKS',
                 stack: [
                     {
                         name: 'Javascript',
                         logo: 'https://i.ibb.co/sqtZHrq/js.png',
                     },
                     {
+                        name: 'Typescript',
+                        logo: 'https://i.ibb.co/5cctX7k/Type-Script-Logo.png',
+                    },
+                    {
                         name: 'React',
                         logo: 'https://i.ibb.co/wSGw6Mv/jsx.webp',
+                    },
+                    {
+                        name: 'Redux',
+                        logo: 'https://i.ibb.co/WPb0t99/redux-Logo.png',
                     },
                     {
                         name: 'jQuery',
@@ -230,6 +273,10 @@ const data = {
                     {
                         name: 'RESTful APIs',
                         logo: 'https://i.ibb.co/rGw7KK4/restful-api-image.png',
+                    },
+                    {
+                        name: 'GraphQL',
+                        logo: 'https://i.ibb.co/mbb3X25/graphQL.png',
                     },
                 ]
             },
